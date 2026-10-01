@@ -1,20 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
-    int rows = 4;
-    int cols = 15;
-    int r = 0;
-
-    while (r < rows) {
-        int c = 0;
-        while (c < cols) {
+int main() {
+  int j;
+    int h = 0;
+    
+    while (h<=5){
+        int j = 0;
+        while (j<=20){
             printf("*");
-            c++;
+            
+        j++;
         }
         printf("\n");
-        r++;
+        h++;
     }
-
     return 0;
 }
-
